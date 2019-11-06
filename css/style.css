@@ -9,6 +9,7 @@
 	justify-content: center;
 	align-items: center;
 	border: 1px solid #85d6e5;
+	cursor: pointer;
 }
 .links-container {
 	line-height: 40px;
