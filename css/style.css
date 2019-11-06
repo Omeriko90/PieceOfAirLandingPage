@@ -1,0 +1,28 @@
+.image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 170px;
+}
+.links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #85d6e5;
+}
+.links-container {
+	line-height: 40px;
+	width: 60%;
+}
+.links-container > div:not(:last-child) {
+	margin-bottom: 10px;
+}
+.links:hover {
+	background-color: #85d6e5;
+}
+.links:hover > a {
+	color:#fff;
+}
+a {
+	text-decoration: none;
+}
