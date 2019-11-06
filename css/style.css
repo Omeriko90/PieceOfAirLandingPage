@@ -20,9 +20,10 @@
 .links:hover {
 	background-color: #85d6e5;
 }
-.links:hover > a {
+.links:hover > span {
 	color:#fff;
 }
-a {
-	text-decoration: none;
+span {
+	color: #007bff;
+	
 }
