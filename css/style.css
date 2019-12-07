@@ -1,8 +1,20 @@
+body {
+	min-height: 100vh;
+	min-width: 100vw;;
+}
 .image {
 	display: flex;
+	width: 65%;
+	height: 65%;
 	justify-content: center;
 	align-items: center;
-	margin-left: 170px;
+	margin-left: 23%;
+	
+}
+.content-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 .links {
 	display: flex;
@@ -27,4 +39,19 @@
 span {
 	color: #767978;
 	
+}
+@media screen and (max-width: 767px) {
+	.image {
+		width: 100%;
+		margin-left: 13%;
+		margin-bottom: 10%;
+	}
+	img {
+		width: 120%;
+	}
+	.links-container {
+		width: 90%;
+		font-size: 20px;
+		line-height: 60px;
+	}
 }
